@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { ChartData } from 'chart.js';
 
 @Component({
   selector: 'app-graficas-doble',
   templateUrl: './graficas-doble.component.html',
   styleUrls: ['./graficas-doble.component.css']
 })
-export class GraficasDobleComponent implements OnInit {
+export class GraficasDobleComponent {
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+
 
 }
