@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ChartData } from 'chart.js';
+import { ChartData, ChartEvent, ChartType } from 'chart.js';
 
 @Component({
   selector: 'app-graficas-doble',
@@ -7,6 +7,7 @@ import { ChartData } from 'chart.js';
   styleUrls: ['./graficas-doble.component.css']
 })
 export class GraficasDobleComponent {
+
 
 
 
